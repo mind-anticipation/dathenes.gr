@@ -12,7 +12,7 @@ This css file will over write bootstarp css
 # License: GPL v2 or later
 # License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 # Tags:
----------------------------------------------------------------------- 
+----------------------------------------------------------------------
 ========================================================================
 */
 
@@ -80,7 +80,7 @@ h5 { font-size: 16px;}
 h6 { font-size: 14px;}
 
 p {
-	
+
 	font-weight: normal;
 }
 
@@ -126,7 +126,7 @@ a:active {color: #416467;}
 /*--------------------------------------
 # 2.0 left-block style start here
 ----------------------------------------*/
- 
+
 .rocket-block {
 	text-align:center;
 	padding: 0px 40px 0;
@@ -184,7 +184,7 @@ a:active {color: #416467;}
 /*----------------------------------------
 # - 3.2 contact section style
 ------------------------------------------
-*/ 
+*/
 .contact-block .label {
 	display: inline-block;
 	color: #3a3a3a;
@@ -236,7 +236,7 @@ a:active {color: #416467;}
 	padding: 10px 20px;
 }
 .contact-block .btn-sand {
-	background: #417378;	
+	background: #417378;
 }
 .contact-block .btn-sand:hover {
     background: #416467;
@@ -260,8 +260,8 @@ a:active {color: #416467;}
 	background-color: transparent;
 	color: #ffffff;
 	display: none;
-} 
- 
+}
+
 .followus {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
@@ -283,7 +283,7 @@ a:active {color: #416467;}
     font-size: 42px;
 }
 .social-icon li a{
-    color: #53544f;	
+    color: #53544f;
 }
 .social-icon li a:hover {
 	color: #2D2D2A;
@@ -303,7 +303,7 @@ a:active {color: #416467;}
 .sun h1 {
 	font-size: 36px;
 	margin-bottom: 48px;
-}	
+}
 .sun h2 {
 	margin-bottom:70px
 }
@@ -329,7 +329,7 @@ a:active {color: #416467;}
 }
 .sun .btn-sand:hover {
 	background:#F7B72D;
-	border-color:#F7B72D; 
+	border-color:#F7B72D;
 }
 .sun .btn-sand:focus {
 	border-color:#F7B72D;
@@ -362,8 +362,8 @@ a:active {color: #416467;}
   top: 16px !important;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-} 
-.mid-animate { opacity: 0;} 
+}
+.mid-animate { opacity: 0;}
 .bottom-animate {
   top: 16px !important;
   -webkit-transform: rotate(-225deg);
@@ -390,4 +390,30 @@ nav {
 }
 nav section {
 	margin-top: 15%;
+}
+
+.mc-field-group {
+  float: left;
+  width: 80%;
+}
+
+.mc-field-group label {
+  font-weight: normal;
+  color: #fff;
+  display: none;
+}
+.mc-field-group input {
+  padding: 5px 10px;
+  border-radius: 3px;
+  display: inline-block;
+  width: 100%;
+}
+
+#mc_embed_signup_scroll input.button {
+  display: inline-block;
+  padding: 7px 30px;
+  color: #fff;
+  background: #08c;
+  border-radius: 3px;
+  border: none;
 }
